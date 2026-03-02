@@ -4,18 +4,13 @@ Format of `spinners.json`:
 
 ```json
 {
-  "mode": "replace",
-  "verbs": ["Phrase 1", "Phrase 2"]
+  "spinnerVerbs": {
+    "mode": "replace",
+    "verbs": ["Phrase 1", "Phrase 2"]
+  }
 }
 ```
 
-If the `spinnerVerbs` field already exists in `~/.claude/settings.json`, replace its value. If it doesn't exist, create it. Field format:
-
-```json
-"spinnerVerbs": {
-  "mode": "replace",
-  "verbs": ["Phrase 1", "Phrase 2"]
-}
-```
+Copy the `spinnerVerbs` field from `spinners.json` into `~/.claude/settings.json`. If the `spinnerVerbs` field already exists in `settings.json`, replace its value. If it doesn't exist, create it.
 
 IMPORTANT: Do not modify any other fields in `settings.json`. Only change `spinnerVerbs`.
