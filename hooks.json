@@ -1,0 +1,15 @@
+{
+  "hooks": {
+    "Stop": [
+      {
+        "matcher": "",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "afplay -v 1 ~/.claude/sounds/stop-hook.mp3"
+          }
+        ]
+      }
+    ]
+  }
+}
